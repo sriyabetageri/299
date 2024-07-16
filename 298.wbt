@@ -1,0 +1,176 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.06223370083247784 -0.0048885725642145595 0.9980496322022158 3.2981153228248354
+  position 4.611417528916239 1.4505496892308645 1.5144072826925568
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation 0 -0.45 0.53
+  floorSize 5 5
+}
+Solid {
+  translation 0 -0.45 0.59
+  scale 5 5 5
+  children [
+    Shape {
+      geometry Plane {
+      }
+    }
+  ]
+}
+Solid {
+  translation 0 1.57 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+}
+Solid {
+  translation 1.5 1.57 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(2)"
+}
+Solid {
+  translation 0.42 -1.54 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(3)"
+}
+Solid {
+  translation 1.1 -0.6 0.65
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+}
+Solid {
+  translation -1.1 -2.02 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(5)"
+}
+Solid {
+  translation -1.97 0.64 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(6)"
+}
+Solid {
+  translation -1.01 -0.09 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(7)"
+}
+Solid {
+  translation -1.37 1.57 0.66
+  children [
+    Shape {
+      appearance PBRAppearance {
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(8)"
+}
+QRIO {
+  hidden position_0_0 4.6623210506786856e-09
+  hidden position_0_1 -1.2868901499984986e-09
+  hidden position_0_2 -1.2875516208765703e-09
+  hidden position_0_3 1.2342595834269332e-09
+  hidden position_2_0 -8.84933946647072e-11
+  hidden position_3_0 -1.8946277879905438e-09
+  hidden position_3_1 -5.868930674779449e-09
+  hidden position_4_0 -3.497803491324321e-08
+  hidden rotation_5 0 1 0 2.9802322387695313e-08
+  hidden position_5_0 -2.062302272557446e-07
+  hidden rotation_6 -0.9999999999999999 0 0 2.0647654623614288e-07
+  hidden position_6_0 -9.731667583543911e-08
+  hidden rotation_7 0 -1 0 9.884312124119402e-08
+  hidden position_7_0 -6.215992670226625e-08
+  hidden rotation_8 0 1 0 5.960464477539063e-08
+  hidden position_8_0 2.3807622982930598e-08
+  hidden rotation_9 -1 0 0 2.9802322387695313e-08
+  hidden position_10_0 3.07570128306201e-08
+  hidden rotation_11 0 -1 0 2.9802322387695313e-08
+  hidden position_11_0 -1.9671039197624627e-07
+  hidden rotation_12 1 0 0 1.976862424823881e-07
+  hidden position_12_0 6.904532053552109e-08
+  hidden rotation_13 0 0.9999999999999999 0 6.664001874625056e-08
+  hidden position_13_0 -6.857182513933294e-08
+  hidden rotation_14 0 1 0 6.664001874625056e-08
+  hidden position_14_0 4.316342677726725e-08
+  hidden rotation_15 1 0 0 4.2146848510894035e-08
+  hidden position_16_0 3.619916747763321e-08
+  hidden rotation_17 1 0 0 2.9802322387695313e-08
+  hidden position_17_0 4.9848032958389504e-08
+  hidden rotation_18 0 -0.9999999999999999 0 5.16191365590357e-08
+  hidden position_19_0 3.5913131686985474e-08
+  hidden rotation_20 -1 0 0 2.9802322387695313e-08
+  hidden position_20_0 -3.517476934267687e-08
+  hidden rotation_21 0 1 0 2.9802322387695313e-08
+  translation -1.7856384416400763 -0.22030709811747037 0.9378131932608763
+  rotation -0.0002871146966966322 -0.07000392529169071 -0.9975466746016982 0.008044049722557747
+  controller "my_controller1"
+  extensionSlot [
+    Camera {
+      fieldOfView 0.785401
+      width 60
+      height 60
+    }
+  ]
+}
